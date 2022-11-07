@@ -6,5 +6,7 @@ from .models import Category
 class CategorySerializer(serializers.Serializer):
     class Meta:
         model = Category
-        fields = ('name', 'description')
+        field = ('name', 'description')
+        
+   #ali fields antha ethu nan ega field antha madidini     
 

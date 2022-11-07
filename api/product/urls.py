@@ -8,4 +8,4 @@ router.register(r'', views.ProductViewSet)
 
 urlpatterns = [
     path('', include(router.urls))
-]
+] 
